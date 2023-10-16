@@ -1,9 +1,9 @@
-# Description of what happened in the code after using each of these 3 parameters and Log files for all theese actions
+# Description of what happened in the code after using each of these 3 parameters and log files for all these actions
 
-- <em>first parameter</em>
+## - <em>first parameter</em>
 
 ## If we reset using the second commit id, the third action (adding the third .md file) will be undone. 
-<strong> LOGS: </strong>
+<p><strong> LOGS: </strong></p>
 hp@DESKTOP-3H44GF4 MINGW64 ~/AQA/Homework1/qa_auto_1.2.4 (main)
 $ git log
 commit b74994df5092aa9a81c9052ef3d73887ba699cf5 (HEAD -> main)
@@ -28,7 +28,7 @@ commit 93e058d3321dba27a85c21668c2d16de96eb05fe
 
 
 ## If we reset using the third commit id, we will change back the HEAD to the third commit
-<strong> LOGS: </strong>
+<p><strong> LOGS: </strong></p>
 hp@DESKTOP-3H44GF4 MINGW64 ~/AQA/Homework1/qa_auto_1.2.4 (main)
 $ git log
 commit 5a8e1396adb30c4cf231526cfc3bf8ad98bfba4e (HEAD -> main, origin/main, origin/HEAD)
@@ -51,10 +51,10 @@ Date:   Mon Oct 16 20:13:15 2023 +0200
 
 commit 26b2d85e07d4806af118739beeadfd5e23ba7caa
 
-- <em>second parameter</em>
+## - <em>second parameter</em>
 
 ## If we reset using the first commit id, the second and the third action (adding the second and the third .md file) will be undone. 
-<strong> LOGS: </strong>
+<p><strong> LOGS: </strong></p>
 hp@DESKTOP-3H44GF4 MINGW64 ~/AQA/Homework1/qa_auto_1.2.4 (main)
 $ git log
 commit aa10a541094c31f9c43831aa1275beb91bcd3ee5 (HEAD -> main)
@@ -86,7 +86,7 @@ Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
 
 ## If we reset using the second commit id, we will change back the HEAD to the second commit
 
-- <em>third parameter</em>
+## - <em>third parameter</em>
 
 ## If we reset using the first commit id, the second and the third action (adding the second and the third .md file) will be undone.
 
